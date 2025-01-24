@@ -7,7 +7,7 @@
 
 <script>
 export default {
-  name: "Input",
+  name: "Search",
   props: {
     placeholder: {
       type: String,
@@ -33,6 +33,7 @@ export default {
   &__icon {
     &:hover {
       cursor: pointer;
+      animation: spin 3s ease;
     }
   }
 
@@ -42,6 +43,15 @@ export default {
 
     &:focus {
       color: $white;
+    }
+  }
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
     }
   }
 }

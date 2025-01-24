@@ -26,6 +26,7 @@ export default {
     Search,
     Avatar,
   },
+  name: "Header",
 };
 </script>
 
@@ -73,6 +74,28 @@ export default {
 
     &:hover {
       cursor: pointer;
+      animation: shaking 1s infinite;
+    }
+  }
+
+  @keyframes shaking {
+    0% {
+      transform: skewX(-15deg);
+    }
+    5% {
+      transform: skewX(15deg);
+    }
+    10% {
+      transform: skewX(-15deg);
+    }
+    15% {
+      transform: skewX(15deg);
+    }
+    20% {
+      transform: skewX(0deg);
+    }
+    100% {
+      transform: skewX(0deg);
     }
   }
 }

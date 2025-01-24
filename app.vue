@@ -34,14 +34,11 @@ export default {
   margin: 0 auto;
   background: rgba(8, 8, 8, 1);
 
-  // ????
-  height: 600px;
-
   &__main {
     position: relative;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     gap: 34px;
   }
 
