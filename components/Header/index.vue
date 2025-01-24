@@ -2,7 +2,7 @@
   <div class="header">
     <div class="header__leftside">
       <div class="header__logo">
-        <img src="@/assets/images/header/logo.png" alt="cryptfest" />
+        <img src="/images/header/logo.png" alt="cryptfest" />
       </div>
 
       <h2 class="header__label">Welcome Back, Arkhan</h2>
@@ -11,11 +11,7 @@
     <div class="header__rightside">
       <Search />
 
-      <img
-        class="header__notify-icon"
-        src="@/assets/icons/notify.svg"
-        alt="notify"
-      />
+      <img class="header__notify-icon" src="/icons/notify.svg" alt="notify" />
 
       <Avatar />
     </div>
@@ -44,6 +40,7 @@ export default {
   z-index: 2;
   max-height: 90px;
   height: 100%;
+  margin-bottom: 20px;
 
   &__leftside,
   &__rightside {

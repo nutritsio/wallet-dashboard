@@ -52,7 +52,7 @@ export default {
     height: 474px;
     top: 16px;
     left: 80px;
-    background: url("/assets/images/bg1.png") no-repeat;
+    background: url("/images/bg1.png") no-repeat;
     background-size: 100%;
     filter: blur(30px);
     z-index: 1;
@@ -65,7 +65,7 @@ export default {
     height: 474px;
     top: -100px;
     right: 0px;
-    background: url("/assets/images/bg2.png") no-repeat;
+    background: url("/images/bg2.png") no-repeat;
     background-size: 100%;
     filter: blur(30px);
     z-index: 1;

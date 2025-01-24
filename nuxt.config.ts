@@ -2,7 +2,7 @@ export default defineNuxtConfig({
   compatibilityDate: "2024-11-01",
   devtools: { enabled: true },
   css: ["@/assets/scss/global.scss"],
-  modules: ["@nuxtjs/google-fonts"],
+  modules: ["@nuxtjs/google-fonts", "@nuxt/image"],
 
   vite: {
     css: {
@@ -18,5 +18,9 @@ export default defineNuxtConfig({
     families: {
       Roboto: true,
     },
+  },
+
+  image: {
+    dir: "/assets",
   },
 });

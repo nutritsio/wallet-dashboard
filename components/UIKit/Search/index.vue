@@ -1,6 +1,6 @@
 <template>
   <div class="ui-search">
-    <img class="ui-search__icon" src="/assets/icons/search.svg" alt="search" />
+    <img class="ui-search__icon" src="/icons/search.svg" alt="search" />
     <input class="ui-search__input" type="text" :placeholder="placeholder" />
   </div>
 </template>

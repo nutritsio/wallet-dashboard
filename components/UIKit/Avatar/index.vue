@@ -1,11 +1,7 @@
 <template>
   <div class="avatar">
     <div class="avatar__name">Evano</div>
-    <img
-      class="avatar__img"
-      src="@/assets/images/header/avatar.png"
-      alt="avatar"
-    />
+    <img class="avatar__img" src="/images/header/avatar.png" alt="avatar" />
   </div>
 </template>
 
