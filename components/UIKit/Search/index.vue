@@ -1,0 +1,48 @@
+<template>
+  <div class="ui-search">
+    <img class="ui-search__icon" src="/assets/icons/search.svg" alt="search" />
+    <input class="ui-search__input" type="text" :placeholder="placeholder" />
+  </div>
+</template>
+
+<script>
+export default {
+  name: "Input",
+  props: {
+    placeholder: {
+      type: String,
+      default: "Search",
+    },
+  },
+};
+</script>
+
+<style lang="scss" scoped>
+.ui-search {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  padding-left: 16px;
+
+  width: 280px;
+  height: 48px;
+  border-radius: 16px;
+  background: rgba(28, 31, 37, 0.6);
+
+  &__icon {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &__input {
+    color: #a0a0a0;
+    all: unset;
+
+    &:focus {
+      color: $white;
+    }
+  }
+}
+</style>
